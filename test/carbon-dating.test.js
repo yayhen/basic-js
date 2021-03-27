@@ -166,8 +166,8 @@ describe('Carbon dating', () => {
         });
       } else {
         it.optional('basic examples', () => {
-          assert.equal(dateSample('3'), 13308);
           assert.equal(dateSample('1'), 22392);
+          assert.equal(dateSample('3'), 13308);
           assert.equal(dateSample('9'), 4224);
           assert.equal(dateSample('11'), 2565);
         });

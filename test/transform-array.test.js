@@ -70,16 +70,16 @@ describe('Transform array', () => {
                     output: [1, 2, 3, 4, 5]
                 },
                 doubleDoubled: {
-                    input: [1, 2, 3, '--double-next', 1337, '--double-prev', 4, 5],
-                    output: [1, 2, 3, 1337, 1337, 1337, 4, 5]
+                    input: [1, 2, 3, '--double-next', 1338, '--double-prev', 4, 5],
+                    output: [1, 2, 3, 1338, 1338, 1338, 4, 5]
                 },
                 discardDiscarded: {
-                    input: [1, 2, 3, '--discard-next', 1337, '--discard-prev', 4, 5],
+                    input: [1, 2, 3, '--discard-next', 1339, '--discard-prev', 4, 5],
                     output: [1, 2, 3, 4, 5]
                 },
                 discardDoubled: {
-                    input: [1, 2, 3, '--double-next', 1337, '--discard-prev', 4, 5],
-                    output: [1, 2, 3, 1337, 4, 5]
+                    input: [1, 2, 3, '--double-next', 1340, '--discard-prev', 4, 5],
+                    output: [1, 2, 3, 1340, 4, 5]
                 }
             };
 
